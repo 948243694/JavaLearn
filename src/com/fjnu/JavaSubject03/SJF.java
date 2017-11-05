@@ -11,11 +11,17 @@ import java.util.LinkedList;
 public class SJF {
 	
 	static LinkedList<Task> TaskQueue = null;
-	private LinkedList<Task> waitQueue = new LinkedList<Task>();
+	static private LinkedList<Task> waitQueue = new LinkedList<Task>();
 	private int sumTime;
 	private boolean isFree;
 	private Task now;
 	private String name;
+	
+	static public void waitQueueAdd() {
+		if(TaskQueue.size()!=0){
+			waitQueue.offer(TaskQueue.poll());
+		}
+	}
 	
 	public int getWaitQueueSize(){
 		return waitQueue.size();
@@ -40,9 +46,6 @@ public class SJF {
 	}
 
 	public void startUp() {
-		if(TaskQueue.size()!=0){
-			waitQueue.offer(TaskQueue.poll());
-		}
 		if (isFree) {
 			begin();
 		} else {

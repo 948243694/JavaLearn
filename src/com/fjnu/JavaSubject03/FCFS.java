@@ -16,7 +16,7 @@ import com.fjnu.JavaSubject03.SJF.TaskComparator;
 
 public class FCFS {
 	static LinkedList<Task> TaskQueue = null;
-	private LinkedList<Task> waitQueue = new LinkedList<Task>();
+	static private LinkedList<Task> waitQueue = new LinkedList<Task>();
 	private int sumTime;
 	private boolean isFree;
 	private Task now;
@@ -33,11 +33,14 @@ public class FCFS {
 		this.name = name;
 		isFree = true;
 	}
-
-	public void startUp() {
+	
+	static public void waitQueueAdd() {
 		if(TaskQueue.size()!=0){
 			waitQueue.offer(TaskQueue.poll());
 		}
+	}
+
+	public void startUp() {
 		if (isFree) {
 			begin();
 		} else {
