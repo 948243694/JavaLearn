@@ -159,6 +159,16 @@ public class FCFS {
 }
 ```
 
+***结果截图：***
+
+单个队列：
+
+![](https://github.com/948243694/JavaLearn/tree/master/src/com/fjnu/JavaSubject03/FCFS1.png)
+
+两个队列：
+
+![](https://github.com/948243694/JavaLearn/tree/master/src/com/fjnu/JavaSubject03/FCFS2.png)
+
 ----------
 
 **SJF（短作业优先算法类）：**
@@ -293,6 +303,18 @@ public class SJF {
 }
 
 ```
+
+
+***结果截图：***
+
+单个队列：
+
+![](https://github.com/948243694/JavaLearn/tree/master/src/com/fjnu/JavaSubject03/SJF1.png)
+
+两个队列：
+
+![](https://github.com/948243694/JavaLearn/tree/master/src/com/fjnu/JavaSubject03/SJF2.png)
+
 
 ----------
 
@@ -435,6 +457,18 @@ public class SJF_TP {
 
 }
 ```
+
+
+***结果截图：***
+
+单个队列：
+
+![](https://github.com/948243694/JavaLearn/tree/master/src/com/fjnu/JavaSubject03/SJF_TP1.png)
+
+两个队列：
+
+![](https://github.com/948243694/JavaLearn/tree/master/src/com/fjnu/JavaSubject03/SJF_TP2.png)
+
 
 ----------
 
