@@ -1,7 +1,0 @@
-directoryname:dest  lastchangedate:Thu Nov 16 10:24:40 CST 2017
-directoryname:src  lastchangedate:Thu Nov 16 10:24:25 CST 2017
-file:Catalogue.java  lastchangedate:Thu Nov 16 10:27:06 CST 2017  filesize:1334
-file:dest.txt  lastchangedate:Thu Nov 16 10:25:40 CST 2017  filesize:17
-file:directoryinfo.txt  lastchangedate:Thu Nov 16 10:27:07 CST 2017  filesize:0
-file:IOtest.java  lastchangedate:Thu Nov 16 10:26:46 CST 2017  filesize:1011
-file:src.txt  lastchangedate:Thu Nov 16 10:25:40 CST 2017  filesize:17
